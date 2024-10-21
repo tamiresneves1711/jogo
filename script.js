@@ -51,7 +51,7 @@ function createSquares(){
 
 function createCircles(){
     clearshapes();
-    gameArea.style.backgroundColor = 'brown';
+    gameArea.style.backgroundColor = 'purple';
     for(let i =0; i<5; i++){
         const smallCircle =document.createElement('div');
         smallCircle.classList.add('small-circle');
